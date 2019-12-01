@@ -2997,18 +2997,14 @@ input, select, textarea {
 				margin: 0 0 2em 0;
 			}
 
-		.spotlight .image {
-			display: inline-block;
-			margin-left: 4em;
-			padding: 0.65em;
-			border-radius: 100%;
-			border: solid 1px;
-		}
 
 			.spotlight .image img {
 				display: block;
-				border-radius: 100%;
+				border-radius: 0%;
 				width: 16em;
+				padding: 50px;
+				height: 500px;
+				width: 500px;
 			}
 
 		@media screen and (max-width: 980px) {
